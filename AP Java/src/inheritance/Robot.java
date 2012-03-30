@@ -36,16 +36,16 @@ public class Robot {
 		boolean clear = true;
 		switch (direction) {
 		case 0:
-			m.asteriskPresent(x, y-1);
+			//m.asteriskPresent(x, y-1);
 			break;
 		case 1:
-			m.asteriskPresent(x+1, y);
+			//m.asteriskPresent(x+1, y);
 			break;
 		case 2:
-			m.asteriskPresent(x, y+1);
+			//m.asteriskPresent(x, y+1);
 			break;
 		case 3:
-			m.asteriskPresent(x+1, y);
+			//m.asteriskPresent(x+1, y);
 			break;
 		}
 		return clear;
