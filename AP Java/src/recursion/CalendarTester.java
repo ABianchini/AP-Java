@@ -8,5 +8,8 @@ public class CalendarTester {
 		  Date date = Calendar.getInstance().getTime();
 		  System.out.println("Current date and time is: " + date);
 		  System.out.println();
+		  String test = "ship";
+		  System.out.println(test.substring(0,0));
+		  System.out.println("test");
 	}
 }
