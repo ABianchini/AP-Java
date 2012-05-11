@@ -7,14 +7,14 @@ import java.util.Date;
 
 public class SelectionSortDemo {
 	public static void main(String[] args) {
-		int[] a = ArrayUtil.randomIntArray(20, 100);
-		System.out.println(Arrays.toString(a));
+		//int[] a = ArrayUtil.randomIntArray(20, 100);
+		//System.out.println(Arrays.toString(a));
 		
-		SelectionSorter sorter = new SelectionSorter(a);
+		//SelectionSorter sorter = new SelectionSorter(a);
 		Date date = Calendar.getInstance().getTime();
-		sorter.sort();
+		//sorter.sort();
 		Date date2 = Calendar.getInstance().getTime();
-		System.out.println(Arrays.toString(a));
-		System.out.println(date - date2);
+		//System.out.println(Arrays.toString(a));
+		//System.out.println(date + date2);
 	}
 }
